@@ -6,7 +6,7 @@ def home(request):
 
 def index(request):
         projects = Project.objects.all()
-        context = 
-        {
+        context = {
                 "projects": projects
         }
+        return render(request, 'alphonce/index.html')
