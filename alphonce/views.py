@@ -12,4 +12,7 @@ def index(request):
         return render(request, 'alphonce/index.html')
 
 def detail(request, pk):
-        
+        project = Project.objects.get(pk=pk)
+        context = {
+        "project": project
+    }
