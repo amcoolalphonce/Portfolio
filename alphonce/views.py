@@ -10,3 +10,6 @@ def index(request):
                 "projects": projects
         }
         return render(request, 'alphonce/index.html')
+
+def detail(request, pk):
+        
