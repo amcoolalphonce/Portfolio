@@ -6,3 +6,7 @@ def home(request):
 
 def index(request):
         projects = Project.objects.all()
+        context = 
+        {
+                "projects": projects
+        }
