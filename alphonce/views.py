@@ -9,11 +9,11 @@ def index(request):
         context = {
                 "projects": projects
         }
-        return render(request, 'alphonce/index.html')
+        return render(request, 'alphonce/index.html', context)
 
 def detail(request, pk):
         project = Project.objects.get(pk=pk)
         context = {
         "project": project
        }
-        return render(request, 'alphonce/detail.html')
+        return render(request, 'alphonce/detail.html', context)
