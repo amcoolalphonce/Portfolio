@@ -17,3 +17,7 @@ def detail(request, pk):
         "project": project
        }
         return render(request, 'alphonce/detail.html', context)
+
+
+def about(request):
+        
