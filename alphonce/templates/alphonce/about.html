@@ -1,5 +1,50 @@
 {%  extends 'alphonce/base.html' %}
+{% load static %}
 
 {% block content %}
-<h2>ABOUT ME</h2>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About Me - Software Developer</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+
+<body>
+        <div class="container mt-5">
+                <div class="row">
+                        <div class="col-md-4">
+                                <img src="{% static 'alphonce/uploads/dp.jpeg' %}" alt="Profile Picture" class="img-fluid rounded-circle">
+                        </div>
+                        <div class="col-md-8">
+                                <h1>About Alphonce</h1>
+                                <p>Hello, I'm a software developer with a passion for coding and problem-solving. I have
+                                        expertise in C++, Python, and web development technologies.</p>
+                                <p>My journey in the world of programming started with C++, where I honed my skills in
+                                        algorithmic thinking and software development. Over time, I expanded my
+                                        knowledge to include Python, which I use for various projects, including data
+                                        analysis, automation, and scripting.</p>
+                                <p>Additionally, I have a strong foundation in web development, including HTML, CSS, and
+                                        JavaScript. I enjoy building interactive and responsive websites, and I'm
+                                        well-versed in using Bootstrap to create user-friendly interfaces.</p>
+                                <p>Feel free to explore my portfolio to see some of the projects I've worked on. If
+                                        you'd like to collaborate or have any questions, please don't hesitate to reach
+                                        out to me. I'm always eager to learn and take on new challenges!</p>
+                        </div>
+                </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="bg-dark text-white text-center py-3">
+                &copy; 2023 Alphonce Omondi
+        </footer>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+
 {% endblock content %}
