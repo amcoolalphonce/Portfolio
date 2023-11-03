@@ -20,4 +20,4 @@ def detail(request, pk):
 
 
 def about(request):
-        
+        return render(request, 'alphonce/about.html')
