@@ -17,4 +17,4 @@ Include the dot after the app_name so that django does not create redundant file
 Ensure that the app is returning the basic html page before adding more functionalities
 # 11. Add a model for the projects
 # 12. Run migrations
-
+# 13. Create a superuser.... python manage.py createsuperuser
