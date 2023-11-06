@@ -5,3 +5,5 @@ This Django web app serves as a personal portfolio. It showcases my skills, proj
 # 1. Set the evironment for the project
 # 2. Run pip install django
 # 3. Start project using django-admin startproject project_name
+# 4. Start an app using django-admin startapp app_name . 
+
