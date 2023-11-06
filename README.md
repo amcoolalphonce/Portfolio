@@ -8,4 +8,5 @@ This Django web app serves as a personal portfolio. It showcases my skills, proj
 # 4. Start an app using django-admin startapp app_name . 
 Include the dot after the app_name so that django does not create redundant file directory
 # 5. Add your app to the list of installed app in the settings.py file
+# 6. Create a url.py file in the project's dir and update it to include the app_name's urls
 
