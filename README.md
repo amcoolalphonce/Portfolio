@@ -18,3 +18,4 @@ Ensure that the app is returning the basic html page before adding more function
 # 11. Add a model for the projects
 # 12. Run migrations
 # 13. Create a superuser.... python manage.py createsuperuser
+# 14. Register the model into the admin.py
