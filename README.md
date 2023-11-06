@@ -13,4 +13,5 @@ Include the dot after the app_name so that django does not create redundant file
 # 8. Create a templates directory within the app_name
 # 9. Create a basic html file home.html in the templates dir
 # 8. Create a urls.py file in the project's dir and update it to include the app_name's urls
+# 10. Run the server using python manage.py runserver command
 
