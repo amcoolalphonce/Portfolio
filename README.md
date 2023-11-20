@@ -1,4 +1,4 @@
-# Alphonce's Portfolio
+# MY PORTFOLIO
 
 ## ABOUT
 
