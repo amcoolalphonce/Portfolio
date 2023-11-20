@@ -24,4 +24,5 @@ Ensure that the app is returning the basic html page before adding more function
 * Register the model into the admin.py
 * Go to the /admin page on the local host and add a project
 
+
 ## MODULES INSTALLED  
