@@ -3,7 +3,7 @@
 ### Table of content
 1. [ABOUT](#about)
 2. [THE PROCESS](#the-process)
-3. [MOULES INSTALLED](#modules-installed)
+3. [MODULES INSTALLED](#modules-installed)
 4. 
 ## ABOUT
 
