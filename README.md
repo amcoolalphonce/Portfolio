@@ -7,10 +7,10 @@
 ## THE PROCESS
 * Set the evironment for the project
 * Run pip install django
-# 3. Start project using django-admin startproject project_name
-# 4. Start an app using django-admin startapp app_name . 
+* Start project using django-admin startproject project_name
+* Start an app using django-admin startapp app_name . 
 Include the dot after the app_name so that django does not create redundant file directory
-# 5. Add your app to the list of installed app in the settings.py file
+* Add your app to the list of installed app in the settings.py file
 # 6. Create a view in the views.py and return a simple html page
 # 7. Add the view to the app_names's urls.py
 # 8. Create a templates directory within the app_name
