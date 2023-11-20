@@ -1,6 +1,8 @@
 # MY PORTFOLIO USING DJANGO FRAMEWORK
 
 ### Table of content
+1. [ABOUT](#about)
+2. 
 ## ABOUT
 
 ### This Django web app serves as a personal portfolio. It showcases my skills, projects, and contact information.You can easily customize content and styles to make it your own.
