@@ -18,7 +18,7 @@ Include the dot after the app_name so that django does not create redundant file
 * Create a urls.py file in the project's dir and update it to include the app_name's urls
 * Run the server using python manage.py runserver command
 Ensure that the app is returning the basic html page before adding more functionalities
-# 11. Add a model for the projects
+* Add a model for the projects
 # 12. Run migrations
 # 13. Create a superuser.... python manage.py createsuperuser
 # 14. Register the model into the admin.py
